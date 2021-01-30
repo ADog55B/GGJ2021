@@ -12,6 +12,13 @@ enum DetectType {
 	Lv3
 }
 
+//Detect direction
+enum DetectDire {
+	Lv1,
+	Lv2,
+	Lv3
+}
+
 //Shovel area
 enum LiftArea {
 	Lv1 = 10,
@@ -28,6 +35,8 @@ enum LiftPower {
 
 detectArea = DetectArea.Lv1; //Now detect area
 detectType = DetectType.Lv1; //Now detect type
+detectDirc = DetectDire.Lv1;
+drawDirc = 0;
 canDistinguish = false; //Can figure obj type?
 
 liftArea = LiftArea.Lv1;
@@ -35,9 +44,12 @@ liftPower = LiftPower.Lv1;
 
 treasure = -1; //Detected pbj id
 dis = -1; //Mouse distance with obj
+dir = -1; //Mouse direction with obj
 ringTimerMax = 64; //Sound timer
 ringTimer = ringTimerMax;
 nowStatus = -1;
+
+global.money = 0;
 
 //Detect area level
 detectLv1 = 120;

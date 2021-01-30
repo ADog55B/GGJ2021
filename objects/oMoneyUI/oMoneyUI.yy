@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShop",
-    "path": "sprites/sShop/sShop.yy",
+    "name": "sMoneyUI",
+    "path": "sprites/sMoneyUI/sMoneyUI.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oMoneyUI","path":"objects/oMoneyUI/oMoneyUI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +33,7 @@
     "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oShop",
+  "name": "oMoneyUI",
   "tags": [],
   "resourceType": "GMObject",
 }

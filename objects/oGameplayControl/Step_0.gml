@@ -1,28 +1,21 @@
-function GameControl(){
-	if global.cursorState != Cursor.select nowStatus = global.cursorState;
-	changeTool = mouse_check_button_pressed(mb_right);
-	dig = mouse_check_button_pressed(mb_left);
-	
-	//Switch status
-	if changeTool{
-		if global.cursorState == Cursor.detector global.cursorState = Cursor.shovel;
-		else global.cursorState = Cursor.detector;
-	}
-	//UI control
-	if position_meeting(mouse_x, mouse_y, oShop){
-		global.cursorState = Cursor.select;
-		}
-	else if global.cursorState == Cursor.select global.cursorState = nowStatus;
-}
-
 //Find obj ID & return distance
 function Detect(){
-	if treasure != noone dis = point_distance(mouse_x, mouse_y, treasure.x, treasure.y);
-	else dis = noone;
+	if treasure != noone {
+		dis = point_distance(mouse_x, mouse_y, treasure.x, treasure.y);
+		dir = point_direction(mouse_x, mouse_y, treasure.x, treasure.y);
+	}
+	else {
+		dis = noone;
+		dir = noone
+	}
 	if dis > detectLv1 ringTimer = ringTimerMax;
 	if CanDetect(detectType, treasure.type) DetectTimer();
 	else ringTimer = ringTimerMax;
+	
+	if detectDirc == DetectDire.Lv2 drawDirc = 1;
+	if detectDirc == DetectDire.Lv3 drawDirc = 2;
 }
+
 
 //Detect sound
 function DetectTimer(){
@@ -44,12 +37,11 @@ function Dig() {
 	}
 }
 
-GameControl();
 if global.cursorState = Cursor.detector {
 	treasure = instance_nearest(mouse_x, mouse_y,oTreasure)
 	Detect();
 }
 else if global.cursorState = Cursor.shovel {
 	ringTimer = ringTimerMax;
-	if dig Dig();
+	if global.dig Dig();
 }
