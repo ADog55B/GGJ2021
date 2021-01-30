@@ -1,6 +1,22 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"findPaper","path":"sounds/findPaper/findPaper.yy",},"order":1,},
+    {"id":{"name":"oBranch","path":"objects/oBranch/oBranch.yy",},"order":3,},
+    {"id":{"name":"oCursor","path":"objects/oCursor/oCursor.yy",},"order":0,},
+    {"id":{"name":"findWood","path":"sounds/findWood/findWood.yy",},"order":3,},
+    {"id":{"name":"sDetector","path":"sprites/sDetector/sDetector.yy",},"order":2,},
+    {"id":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"order":0,},
+    {"id":{"name":"window_set_cursor","path":"extensions/window_set_cursor/window_set_cursor.yy",},"order":0,},
+    {"id":{"name":"oTreasure","path":"objects/oTreasure/oTreasure.yy",},"order":0,},
+    {"id":{"name":"oNewspaper","path":"objects/oNewspaper/oNewspaper.yy",},"order":2,},
+    {"id":{"name":"sOneDoller","path":"sprites/sOneDoller/sOneDoller.yy",},"order":1,},
+    {"id":{"name":"sShovel","path":"sprites/sShovel/sShovel.yy",},"order":1,},
+    {"id":{"name":"oOneDoller","path":"objects/oOneDoller/oOneDoller.yy",},"order":1,},
+    {"id":{"name":"findSome","path":"sounds/findSome/findSome.yy",},"order":2,},
+    {"id":{"name":"sBranch","path":"sprites/sBranch/sBranch.yy",},"order":0,},
+    {"id":{"name":"oGameControl","path":"objects/oGameControl/oGameControl.yy",},"order":1,},
+    {"id":{"name":"findMetal","path":"sounds/findMetal/findMetal.yy",},"order":0,},
+    {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -21,7 +37,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -38,6 +54,8 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Treasure.yy","order":2,"resourceVersion":"1.0","name":"Treasure","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Treasure.yy","order":4,"resourceVersion":"1.0","name":"Treasure","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
