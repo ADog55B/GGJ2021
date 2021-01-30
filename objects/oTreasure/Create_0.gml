@@ -4,5 +4,7 @@ enum TreasureType{
 	paper
 	}
 hp = 1;
-
-obj = noone;
+good = 0;
+spd = 2;
+image_alpha = 0;
+fly = 0;
