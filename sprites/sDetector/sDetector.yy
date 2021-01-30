@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23a07fea-e2e2-453d-9977-232cbe1c289f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cursor",
+    "path": "folders/Sprites/Cursor.yy",
   },
   "resourceVersion": "1.0",
   "tags": [],

@@ -37,6 +37,7 @@ treasure = -1; //Detected pbj id
 dis = -1; //Mouse distance with obj
 ringTimerMax = 64; //Sound timer
 ringTimer = ringTimerMax;
+nowStatus = -1;
 
 //Detect area level
 detectLv1 = 120;
