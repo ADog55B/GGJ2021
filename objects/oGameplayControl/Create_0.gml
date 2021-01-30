@@ -40,7 +40,6 @@ detectDire = DetectDire.Lv1;
 liftArea = LiftArea.Lv1;
 liftPower = LiftPower.Lv1;
 
-drawDire = 0;//Draw direction of the object
 canDistinguish = false; //Can figure obj type?
 
 treasure = -1; //Detected pbj id

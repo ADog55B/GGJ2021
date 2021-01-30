@@ -16,5 +16,5 @@ function DetectDirction() {
 	}
 }
 
-if drawDire > 0 && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
+if detectDire > 0 && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
 DetectDirction();
