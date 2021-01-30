@@ -17,6 +17,7 @@ function PayTheBill(num) {
 			global.money -= itemPrice[num][itemLv];
 			itemLv ++;
 		}
+		if oSpawner.spwanLevel < 2 oSpawner.spwanLevel ++;
 	}
 }
 

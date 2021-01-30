@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c4e9a194-643b-4e72-b0e1-a5a74eb0f24b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Dollars",
-    "path": "folders/Sprites/Treasure/Dollars.yy",
+    "name": "Treasure",
+    "path": "folders/Sprites/Treasure.yy",
   },
   "resourceVersion": "1.0",
   "name": "sOneDoller",

@@ -4,3 +4,5 @@ enum TreasureType{
 	paper
 	}
 hp = 1;
+
+obj = noone;

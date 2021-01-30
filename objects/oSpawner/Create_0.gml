@@ -1,0 +1,1 @@
+spwanLevel = 0;
