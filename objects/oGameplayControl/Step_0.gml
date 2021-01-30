@@ -12,8 +12,8 @@ function Detect(){
 	if CanDetect(detectType, treasure.type) DetectTimer();
 	else ringTimer = ringTimerMax;
 	
-	if detectDirc == DetectDire.Lv2 drawDirc = 1;
-	if detectDirc == DetectDire.Lv3 drawDirc = 2;
+	if detectDire == DetectDire.Lv2 drawDire = 1;
+	if detectDire == DetectDire.Lv3 drawDire = 2;
 }
 
 

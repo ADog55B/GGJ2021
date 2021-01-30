@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShop",
-    "path": "sprites/sShop/sShop.yy",
+    "name": "sDetectorUI",
+    "path": "sprites/sDetectorUI/sDetectorUI.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oShop","path":"objects/oShop/oShop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oShop","path":"objects/oShop/oShop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Button",
-    "path": "folders/Objects/UI/Button.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oShop",
+  "name": "oDetectorUI",
   "tags": [],
   "resourceType": "GMObject",
 }

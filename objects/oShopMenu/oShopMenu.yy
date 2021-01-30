@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShop",
-    "path": "sprites/sShop/sShop.yy",
+    "name": "sShopMenu",
+    "path": "sprites/sShopMenu/sShopMenu.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,17 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oShop","path":"objects/oShop/oShop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oShop","path":"objects/oShop/oShop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oShopMenu","path":"objects/oShopMenu/oShopMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Button",
-    "path": "folders/Objects/UI/Button.yy",
+    "name": "Menu",
+    "path": "folders/Objects/UI/Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oShop",
+  "name": "oShopMenu",
   "tags": [],
   "resourceType": "GMObject",
 }

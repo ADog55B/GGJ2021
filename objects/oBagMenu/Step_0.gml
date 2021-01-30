@@ -1,0 +1,1 @@
+if global.bagOpen == false instance_destroy();

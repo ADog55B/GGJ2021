@@ -1,0 +1,1 @@
+if global.shopOpen == false instance_destroy();

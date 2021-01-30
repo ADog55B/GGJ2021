@@ -35,8 +35,8 @@ enum LiftPower {
 
 detectArea = DetectArea.Lv1; //Now detect area
 detectType = DetectType.Lv1; //Now detect type
-detectDirc = DetectDire.Lv1;
-drawDirc = 0;
+detectDire = DetectDire.Lv1;
+drawDire = 0;
 canDistinguish = false; //Can figure obj type?
 
 liftArea = LiftArea.Lv1;
