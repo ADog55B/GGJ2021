@@ -1,4 +1,4 @@
-draw_text(mouse_x, mouse_y + 50, oGameplayControl.detectArea);
+draw_text(mouse_x, mouse_y + 50, noone);
 
 function DetectDirction() {
 	if detectDire == DetectDire.Lv2 {
