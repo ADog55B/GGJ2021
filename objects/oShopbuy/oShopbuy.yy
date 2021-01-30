@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Button",
-    "path": "folders/Objects/UI/Button.yy",
+    "name": "ShopButton",
+    "path": "folders/Objects/UI/Button/ShopButton.yy",
   },
   "resourceVersion": "1.0",
   "name": "oShopbuy",
