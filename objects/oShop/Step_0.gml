@@ -11,6 +11,8 @@ function OpenShop() {
 	d.itemLv = oShopSave.item3Lv;
 	var e = instance_create_layer(50, 300,"Button",oHarderShovel);
 	e.itemLv = oShopSave.item4Lv;
+	var f = instance_create_layer(50, 350,"Button",oBrightEye);
+	f.itemLv = oShopSave.item5Lv;
 }
 
 if position_meeting(mouse_x, mouse_y, self) && global.shopOpen == false && global.bagOpen == false{
