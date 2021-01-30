@@ -30,9 +30,21 @@ function DetectTimer(){
 
 //Dig
 function Dig() {
-	if collision_circle(mouse_x, mouse_y, liftArea, treasure, false, false){
+	var a = 0;
+	switch (a) {
+		case LiftPower.Lv1:
+			a = liftLv1;
+			break;
+		case LiftPower.Lv2:
+			a = liftLv2;
+			break;
+		case LiftPower.Lv3:
+			a = liftLv3;
+			break;
+	}
+	if collision_circle(mouse_x, mouse_y, a, treasure, false, false){
 		if CanDetect(detectType, treasure.type){
-			treasure.hp -= liftPower;
+			treasure.hp -= (liftPower + 1);
 		}
 	}
 }

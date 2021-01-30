@@ -24,17 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oExitMenu","path":"objects/oExitMenu/oExitMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oExitMenu","path":"objects/oExitMenu/oExitMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oExitShop","path":"objects/oExitShop/oExitShop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oExitShop","path":"objects/oExitShop/oExitShop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Button",
-    "path": "folders/Objects/UI/Button.yy",
+    "name": "ShopButton",
+    "path": "folders/Objects/UI/Button/ShopButton.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oExitMenu",
+  "name": "oExitShop",
   "tags": [],
   "resourceType": "GMObject",
 }
