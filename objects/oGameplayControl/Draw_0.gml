@@ -16,5 +16,5 @@ function DetectDirction() {
 	}
 }
 
-if detectDire > 0 && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
+if detectDire > 0 && instance_exists(treasure) && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
 DetectDirction();

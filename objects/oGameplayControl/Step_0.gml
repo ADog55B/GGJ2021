@@ -9,8 +9,10 @@ function Detect(){
 		dir = noone
 	}
 	if dis > detectLv1 ringTimer = ringTimerMax;
-	if CanDetect(detectType, treasure.type) DetectTimer();
-	else ringTimer = ringTimerMax;
+	if instance_exists(treasure) {
+		if CanDetect(detectType, treasure.type) DetectTimer();
+		else ringTimer = ringTimerMax;
+	}
 	
 }
 
