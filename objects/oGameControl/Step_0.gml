@@ -10,25 +10,40 @@ function GameControl(){
 
 //Find obj ID & return distance
 function Detect(){
-	treasure = instance_nearest(mouse_x, mouse_y,oTreasure)
 	if treasure != noone dis = point_distance(mouse_x, mouse_y, treasure.x, treasure.y);
 	else dis = noone;
 	if dis > detectLv1 ringTimer = ringTimerMax;
 }
 
 //Detect sound
-function Ringring(){
-	if dis != noone{
-		if detectArea > DetectArea.Lv2 && dis < detectLv4 ringTimer -= 8;
-		else if detectArea > DetectArea.Lv1 && dis < detectLv3 ringTimer -= 4;
-		else if dis < detectLv2 ringTimer -= 2;
-		else if dis < detectLv1 ringTimer -= 1;
+function DetectTimer(){
+	if CanDetect(detectType, treasure.type){
+		if dis != noone{
+			if detectArea > DetectArea.Lv2 && dis < detectLv4 ringTimer -= 8;
+			else if detectArea > DetectArea.Lv1 && dis < detectLv3 ringTimer -= 4;
+			else if dis < detectLv2 ringTimer -= 2;
+			else if dis < detectLv1 ringTimer -= 1;
+		}
+		if ringTimer <= 0 alarm[0] = 1;
 	}
-	if ringTimer <= 0 alarm[0] = 1;
+}
+
+//Dig
+function Dig() {
+	if collision_circle(mouse_x, mouse_y, liftArea, treasure, false, false){
+		if CanDetect(detectType, treasure.type){
+			treasure.hp -= liftPower;
+		}
+	}
 }
 
 GameControl();
 if global.cursorState = Cursor.detector {
-	Ringring();
+	treasure = instance_nearest(mouse_x, mouse_y,oTreasure)
+	DetectTimer();
 	Detect();
+}
+else if global.cursorState = Cursor.shovel {
+	ringTimer = ringTimerMax;
+	if dig Dig();
 }

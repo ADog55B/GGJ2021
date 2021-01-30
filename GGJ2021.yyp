@@ -8,6 +8,7 @@
     {"id":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"order":0,},
     {"id":{"name":"window_set_cursor","path":"extensions/window_set_cursor/window_set_cursor.yy",},"order":0,},
     {"id":{"name":"oTreasure","path":"objects/oTreasure/oTreasure.yy",},"order":0,},
+    {"id":{"name":"CanDetect","path":"scripts/CanDetect/CanDetect.yy",},"order":0,},
     {"id":{"name":"oNewspaper","path":"objects/oNewspaper/oNewspaper.yy",},"order":2,},
     {"id":{"name":"sOneDoller","path":"sprites/sOneDoller/sOneDoller.yy",},"order":1,},
     {"id":{"name":"sShovel","path":"sprites/sShovel/sShovel.yy",},"order":1,},
