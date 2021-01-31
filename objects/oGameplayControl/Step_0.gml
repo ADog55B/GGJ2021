@@ -34,9 +34,15 @@ function Dig() {
 		if CanDetect(detectType, treasure.type){
 			audio_play_sound(something,1,0);
 			treasure.hp -= (liftPower + 1);
+			var a = instance_create_layer(mouse_x,mouse_y,"GUI",oDigEffect);
+			a.getAnything = 1;
 		}
 	}
-	else audio_play_sound(nothing,1,0);
+	else {
+		audio_play_sound(nothing,1,0);
+		var a = instance_create_layer(mouse_x,mouse_y,"GUI",oDigEffect);
+		a.getAnything = 0;
+	}
 }
 
 if global.cursorState = Cursor.detector {

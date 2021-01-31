@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"findPaper","path":"sounds/findPaper/findPaper.yy",},"order":1,},
     {"id":{"name":"sAccuracyUI","path":"sprites/sAccuracyUI/sAccuracyUI.yy",},"order":1,},
+    {"id":{"name":"oDigEffect","path":"objects/oDigEffect/oDigEffect.yy",},"order":10,},
     {"id":{"name":"getMoney","path":"sounds/getMoney/getMoney.yy",},"order":6,},
     {"id":{"name":"oTwoDollers","path":"objects/oTwoDollers/oTwoDollers.yy",},"order":5,},
     {"id":{"name":"oBranch","path":"objects/oBranch/oBranch.yy",},"order":3,},
