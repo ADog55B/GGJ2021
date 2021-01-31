@@ -1,1 +1,1 @@
-draw_text_ext_color(mouse_x,mouse_y - place,word[getAnything][randomword],2,100,c_white,c_white,c_white,c_white,alpha);
+draw_text_ext_color(mouse_x,mouse_y - place,word[getAnything][randomword],2,100,c_black,c_black,c_black,c_black,alpha);
