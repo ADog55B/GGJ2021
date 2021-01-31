@@ -30,19 +30,7 @@ function DetectTimer(){
 
 //Dig
 function Dig() {
-	var a = 0;
-	switch (a) {
-		case LiftPower.Lv1:
-			a = liftLv1;
-			break;
-		case LiftPower.Lv2:
-			a = liftLv2;
-			break;
-		case LiftPower.Lv3:
-			a = liftLv3;
-			break;
-	}
-	if collision_circle(mouse_x, mouse_y, a, treasure, false, false){
+	if collision_circle(mouse_x, mouse_y, liftAre[liftArea], treasure, false, false){
 		if CanDetect(detectType, treasure.type){
 			audio_play_sound(something,1,0);
 			treasure.hp -= (liftPower + 1);

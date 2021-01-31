@@ -57,7 +57,7 @@ detectLv2 = 60;
 detectLv3 = 30;
 detectLv4 = 15;
 
-//Lift power
-liftLv1 = 10;
-liftLv2 = 20;
-liftLv3 = 30;
+//Lift area
+liftAre[0] = 10;
+liftAre[1] = 20;
+liftAre[2] = 30;

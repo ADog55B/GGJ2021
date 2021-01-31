@@ -6,10 +6,10 @@ function Destroy(){
 			image_alpha += 0.1;
 		}
 		else {
-			move_towards_point(oMoneyUI.x,oMoneyUI.y,spd);
+			move_towards_point(oMapUI.x,oMapUI.y,spd);
 			spd += 0.5;
-			if place_meeting(x,y,oMoneyUI) {
-				global.money += good;
+			if place_meeting(x,y,oMapUI) {
+				oMapUI.mapNow ++;
 				audio_play_sound(getMoney,1,0);
 				instance_destroy();
 			}

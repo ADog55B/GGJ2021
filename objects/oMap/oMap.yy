@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sMap",
+    "path": "sprites/sMap/sMap.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNewspaper","path":"objects/oNewspaper/oNewspaper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oMap","path":"objects/oMap/oMap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oMap","path":"objects/oMap/oMap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +34,7 @@
     "path": "folders/Objects/Treasure.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oNewspaper",
+  "name": "oMap",
   "tags": [],
   "resourceType": "GMObject",
 }

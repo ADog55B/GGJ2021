@@ -45,4 +45,11 @@ switch (spwanLevel) {
 			instance_create_layer(irandom_range(20,480),irandom_range(20,480),"Treasure",oTenDollers);
 		}
 		break;
+	case 3:
+		if instance_number(oMap) < 4 {
+			randomize();
+			instance_create_layer(irandom_range(20,480),irandom_range(20,480),"Treasure",oMap);
+		}
+		break;
+	
 }
