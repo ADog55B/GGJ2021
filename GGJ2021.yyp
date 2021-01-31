@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"findPaper","path":"sounds/findPaper/findPaper.yy",},"order":1,},
     {"id":{"name":"sAccuracyUI","path":"sprites/sAccuracyUI/sAccuracyUI.yy",},"order":1,},
+    {"id":{"name":"getMoney","path":"sounds/getMoney/getMoney.yy",},"order":6,},
     {"id":{"name":"oTwoDollers","path":"objects/oTwoDollers/oTwoDollers.yy",},"order":5,},
     {"id":{"name":"oBranch","path":"objects/oBranch/oBranch.yy",},"order":3,},
     {"id":{"name":"sTwoDollers","path":"sprites/sTwoDollers/sTwoDollers.yy",},"order":1,},
@@ -36,6 +37,7 @@
     {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},"order":1,},
     {"id":{"name":"sOneDoller","path":"sprites/sOneDoller/sOneDoller.yy",},"order":0,},
     {"id":{"name":"oShopbuy","path":"objects/oShopbuy/oShopbuy.yy",},"order":7,},
+    {"id":{"name":"something","path":"sounds/something/something.yy",},"order":5,},
     {"id":{"name":"oShovelUI","path":"objects/oShovelUI/oShovelUI.yy",},"order":4,},
     {"id":{"name":"oShop","path":"objects/oShop/oShop.yy",},"order":1,},
     {"id":{"name":"oBiggerShovel","path":"objects/oBiggerShovel/oBiggerShovel.yy",},"order":1,},
@@ -53,6 +55,7 @@
     {"id":{"name":"sBag","path":"sprites/sBag/sBag.yy",},"order":0,},
     {"id":{"name":"oMoneyUI","path":"objects/oMoneyUI/oMoneyUI.yy",},"order":0,},
     {"id":{"name":"findMetal","path":"sounds/findMetal/findMetal.yy",},"order":0,},
+    {"id":{"name":"nothing","path":"sounds/nothing/nothing.yy",},"order":4,},
     {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},"order":0,},
   ],
   "Options": [

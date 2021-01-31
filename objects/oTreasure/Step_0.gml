@@ -9,8 +9,9 @@ function Destroy(){
 			move_towards_point(oMoneyUI.x,oMoneyUI.y,spd);
 			spd += 0.5;
 			if place_meeting(x,y,oMoneyUI) {
-				instance_destroy();
 				global.money += good;
+				audio_play_sound(getMoney,1,0);
+				instance_destroy();
 			}
 		}
 	}

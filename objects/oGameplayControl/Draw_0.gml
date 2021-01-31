@@ -18,3 +18,5 @@ function DetectDirction() {
 
 if detectDire > 0 && instance_exists(treasure) && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
 DetectDirction();
+
+if dig draw_circle(mouse_x, mouse_y,10,true);

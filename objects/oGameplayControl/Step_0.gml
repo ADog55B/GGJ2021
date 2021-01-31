@@ -44,9 +44,11 @@ function Dig() {
 	}
 	if collision_circle(mouse_x, mouse_y, a, treasure, false, false){
 		if CanDetect(detectType, treasure.type){
+			audio_play_sound(something,1,0);
 			treasure.hp -= (liftPower + 1);
 		}
 	}
+	else audio_play_sound(nothing,1,0);
 }
 
 if global.cursorState = Cursor.detector {
