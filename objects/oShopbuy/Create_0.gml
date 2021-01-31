@@ -5,8 +5,8 @@ itemPrice[0][DetectArea.Lv3] = 20;
 itemPrice[1][DetectType.Lv2] = 10;
 itemPrice[1][DetectType.Lv3] = 30;
 
-itemPrice[2][DetectDire.Lv2] = 50;
-itemPrice[2][DetectDire.Lv3] = 100;
+itemPrice[2][DetectDire.Lv2] = 30;
+itemPrice[2][DetectDire.Lv3] = 70;
 
 itemPrice[3][LiftArea.Lv2] = 25;
 itemPrice[3][LiftArea.Lv3] = 60;

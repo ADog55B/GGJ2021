@@ -1,5 +1,3 @@
-draw_text(mouse_x, mouse_y + 50, noone);
-
 function DetectDirction() {
 	if detectDire == DetectDire.Lv1 {
 		if dir > 0 && dir < 180

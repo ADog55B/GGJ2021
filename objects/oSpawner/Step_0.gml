@@ -11,8 +11,8 @@ switch (spwanLevel) {
 		break;
 	case 1:
 		if instance_number(oOneDoller) < 4 SpawnItem(random_range(20,480),random_range(20,480),oOneDoller);
-		if instance_number(oTwoDollers) < 3 SpawnItem(random_range(20,480),random_range(20,480),oTwoDollers);
-		if instance_number(oFiveDollers) < 5 SpawnItem(random_range(20,480),random_range(20,480),oFiveDollers);
+		if instance_number(oTwoDollers) < 4 SpawnItem(random_range(20,480),random_range(20,480),oTwoDollers);
+		if instance_number(oFiveDollers) < 6 SpawnItem(random_range(20,480),random_range(20,480),oFiveDollers);
 		break;
 	case 2:
 		if instance_number(oOneDoller) < 1 SpawnItem(random_range(20,480),random_range(20,480),oOneDoller);
