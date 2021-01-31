@@ -9,7 +9,7 @@ function TypeItemPrice(num) {
 	}
 	else image_index = 0;
 	draw_set_color(c_black);
-	draw_text(x + 15,y + 48,string(itemPrice[num][itemLv]));
+	draw_text(x + 12,y + 48,"Lv." + string(itemLv) + " $" + string(itemPrice[num][itemLv]));
 	draw_set_color(c_white);
 }
 
@@ -18,6 +18,7 @@ function PayTheBill(num) {
 		if global.money >= itemPrice[num][itemLv] {
 			global.money -= itemPrice[num][itemLv];
 			itemLv ++;
+			audio_play_sound(thingBought,1,0);
 		}
 		if oSpawner.spwanLevel < 3 oSpawner.spwanLevel ++;
 	}

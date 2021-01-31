@@ -38,6 +38,7 @@
     {"id":{"name":"oShopMenu","path":"objects/oShopMenu/oShopMenu.yy",},"order":1,},
     {"id":{"name":"sMap","path":"sprites/sMap/sMap.yy",},"order":1,},
     {"id":{"name":"sDetector","path":"sprites/sDetector/sDetector.yy",},"order":0,},
+    {"id":{"name":"thingBought","path":"sounds/thingBought/thingBought.yy",},"order":7,},
     {"id":{"name":"sShopMenu","path":"sprites/sShopMenu/sShopMenu.yy",},"order":1,},
     {"id":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"order":1,},
     {"id":{"name":"sRestart","path":"sprites/sRestart/sRestart.yy",},"order":3,},
