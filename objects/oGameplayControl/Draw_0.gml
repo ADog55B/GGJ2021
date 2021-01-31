@@ -1,6 +1,12 @@
 draw_text(mouse_x, mouse_y + 50, noone);
 
 function DetectDirction() {
+	if detectDire == DetectDire.Lv1 {
+		if dir > 0 && dir < 180
+		draw_sprite(sBasicUI,0,mouse_x,mouse_y);
+		if dir > 180 && dir < 360
+		draw_sprite(sBasicUI,1,mouse_x,mouse_y);
+	}
 	if detectDire == DetectDire.Lv2 {
 		if dir > 45 && dir < 135
 		draw_sprite(sInaccuracyUI,0,mouse_x,mouse_y);
@@ -16,7 +22,7 @@ function DetectDirction() {
 	}
 }
 
-if detectDire > 0 && instance_exists(treasure) && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
+if detectDire >= 0 && instance_exists(treasure) && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
 DetectDirction();
 
 if global.dig && global.cursorState == Cursor.shovel draw_circle(mouse_x, mouse_y, liftAre[liftArea],true);

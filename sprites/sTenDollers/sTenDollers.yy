@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 17,
-  "bbox_right": 23,
-  "bbox_top": 15,
-  "bbox_bottom": 21,
+  "bbox_left": 11,
+  "bbox_right": 29,
+  "bbox_top": 9,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ab2cb48f-184a-41f0-b12f-6183e352a844","path":"sprites/sTenDollers/sTenDollers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab2cb48f-184a-41f0-b12f-6183e352a844","path":"sprites/sTenDollers/sTenDollers.yy",},"LayerId":{"name":"c4e9a194-643b-4e72-b0e1-a5a74eb0f24b","path":"sprites/sTenDollers/sTenDollers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTenDollers","path":"sprites/sTenDollers/sTenDollers.yy",},"resourceVersion":"1.0","name":"ab2cb48f-184a-41f0-b12f-6183e352a844","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a32ab05-2610-4b0c-8fc9-aab1f3117e08","path":"sprites/sTenDollers/sTenDollers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a32ab05-2610-4b0c-8fc9-aab1f3117e08","path":"sprites/sTenDollers/sTenDollers.yy",},"LayerId":{"name":"c4e9a194-643b-4e72-b0e1-a5a74eb0f24b","path":"sprites/sTenDollers/sTenDollers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTenDollers","path":"sprites/sTenDollers/sTenDollers.yy",},"resourceVersion":"1.0","name":"7a32ab05-2610-4b0c-8fc9-aab1f3117e08","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sTenDollers","path":"sprites/sTenDollers/sTenDollers.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4fa7a970-e5db-4b5c-9999-09cf63ebb9c3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab2cb48f-184a-41f0-b12f-6183e352a844","path":"sprites/sTenDollers/sTenDollers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f9a6fba7-1549-4716-a16b-ac561b43c5af","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a32ab05-2610-4b0c-8fc9-aab1f3117e08","path":"sprites/sTenDollers/sTenDollers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c4e9a194-643b-4e72-b0e1-a5a74eb0f24b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Dollars",
-    "path": "folders/Sprites/Treasure/Dollars.yy",
+    "name": "Metal",
+    "path": "folders/Sprites/Treasure/Metal.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTenDollers",

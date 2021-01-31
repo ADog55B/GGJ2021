@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 17,
-  "bbox_right": 23,
-  "bbox_top": 15,
-  "bbox_bottom": 21,
+  "bbox_left": 11,
+  "bbox_right": 29,
+  "bbox_top": 9,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ab2cb48f-184a-41f0-b12f-6183e352a844","path":"sprites/sFiveDollers/sFiveDollers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab2cb48f-184a-41f0-b12f-6183e352a844","path":"sprites/sFiveDollers/sFiveDollers.yy",},"LayerId":{"name":"c4e9a194-643b-4e72-b0e1-a5a74eb0f24b","path":"sprites/sFiveDollers/sFiveDollers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sFiveDollers","path":"sprites/sFiveDollers/sFiveDollers.yy",},"resourceVersion":"1.0","name":"ab2cb48f-184a-41f0-b12f-6183e352a844","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"37adbed1-81d5-459e-9d92-9380d11677da","path":"sprites/sFiveDollers/sFiveDollers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"37adbed1-81d5-459e-9d92-9380d11677da","path":"sprites/sFiveDollers/sFiveDollers.yy",},"LayerId":{"name":"c4e9a194-643b-4e72-b0e1-a5a74eb0f24b","path":"sprites/sFiveDollers/sFiveDollers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sFiveDollers","path":"sprites/sFiveDollers/sFiveDollers.yy",},"resourceVersion":"1.0","name":"37adbed1-81d5-459e-9d92-9380d11677da","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sFiveDollers","path":"sprites/sFiveDollers/sFiveDollers.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f852df6b-d71a-4843-a385-b9257c28706f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab2cb48f-184a-41f0-b12f-6183e352a844","path":"sprites/sFiveDollers/sFiveDollers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8736bb4c-5d01-4418-aa93-2a39c989f4c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37adbed1-81d5-459e-9d92-9380d11677da","path":"sprites/sFiveDollers/sFiveDollers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c4e9a194-643b-4e72-b0e1-a5a74eb0f24b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Dollars",
-    "path": "folders/Sprites/Treasure/Dollars.yy",
+    "name": "Metal",
+    "path": "folders/Sprites/Treasure/Metal.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFiveDollers",

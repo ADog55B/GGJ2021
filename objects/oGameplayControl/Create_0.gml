@@ -45,11 +45,12 @@ canDistinguish = false; //Can figure obj type?
 treasure = -1; //Detected pbj id
 dis = -1; //Mouse distance with obj
 dir = -1; //Mouse direction with obj
-ringTimerMax = 64; //Sound timer
+ringTimerMax = 56; //Sound timer
 ringTimer = ringTimerMax;
 nowStatus = -1;
 
-global.money = 100;
+global.money = 0;
+global.gameWin = false;
 
 //Detect area level
 detectLv1 = 120;
@@ -58,6 +59,6 @@ detectLv3 = 30;
 detectLv4 = 15;
 
 //Lift area
-liftAre[0] = 10;
-liftAre[1] = 20;
-liftAre[2] = 30;
+liftAre[0] = 15;
+liftAre[1] = 25;
+liftAre[2] = 40;

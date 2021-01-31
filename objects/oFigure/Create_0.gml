@@ -6,4 +6,4 @@ event_inherited();
 
 type = TreasureType.wood;
 hp = 3;
-good = 15;
+good = 50;

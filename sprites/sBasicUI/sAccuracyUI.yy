@@ -1,19 +1,20 @@
 {
-  "bboxMode": 0,
-  "collisionKind": 1,
-  "type": 0,
-  "origin": 4,
+  "name": "sAccuracyUI",
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
-  "swfPrecision": 2.525,
   "bbox_left": 50,
   "bbox_right": 55,
   "bbox_top": 28,
   "bbox_bottom": 32,
-  "HTile": false,
-  "VTile": false,
-  "For3D": false,
+  "origin": 4,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "swfPrecision": 2.525,
   "width": 60,
   "height": 60,
   "textureGroupId": {
@@ -29,6 +30,11 @@
       ],"parent":{"name":"sAccuracyUI","path":"sprites/sAccuracyUI/sAccuracyUI.yy",},"resourceVersion":"1.0","name":"2d00c716-fe42-4d59-86be-d779ddb469d0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"81c27a91-41df-4f08-9c67-146f8abc76a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d00c716-fe42-4d59-86be-d779ddb469d0","path":"sprites/sAccuracyUI/sAccuracyUI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
     "spriteId": {"name":"sAccuracyUI","path":"sprites/sAccuracyUI/sAccuracyUI.yy",},
     "timeUnits": 1,
     "playback": 1,
@@ -39,11 +45,6 @@
     "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
-    "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"81c27a91-41df-4f08-9c67-146f8abc76a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d00c716-fe42-4d59-86be-d779ddb469d0","path":"sprites/sAccuracyUI/sAccuracyUI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
-    ],
     "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
@@ -72,7 +73,6 @@
     "path": "folders/Sprites/Cursor/AccuracyUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sAccuracyUI",
   "tags": [],
   "resourceType": "GMSprite",
 }
