@@ -8,7 +8,9 @@ function TypeItemPrice(num) {
 		if global.selectRelease PayTheBill(num);
 	}
 	else image_index = 0;
-	draw_text(x,y,string(itemPrice[num][itemLv]));
+	draw_set_color(c_black);
+	draw_text(x + 15,y + 48,string(itemPrice[num][itemLv]));
+	draw_set_color(c_white);
 }
 
 function PayTheBill(num) {
@@ -21,5 +23,5 @@ function PayTheBill(num) {
 }
 
 function ItemDescription(num) {
-	draw_text(100, 400, string(itemDesc[num][0]));
+	draw_text(100, 350, string(itemDesc[num][0]));
 }

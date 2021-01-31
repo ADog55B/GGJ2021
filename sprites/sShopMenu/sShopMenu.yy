@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 399,
   "bbox_top": 0,
-  "bbox_bottom": 399,
+  "bbox_bottom": 169,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 400,
-  "height": 400,
+  "height": 170,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"14a57521-b0cb-4dcf-a42d-7668c6f1edd6","path":"sprites/sShopMenu/sShopMenu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"14a57521-b0cb-4dcf-a42d-7668c6f1edd6","path":"sprites/sShopMenu/sShopMenu.yy",},"LayerId":{"name":"226911f3-2158-4e60-ab8e-592b70fe22ce","path":"sprites/sShopMenu/sShopMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"14a57521-b0cb-4dcf-a42d-7668c6f1edd6","path":"sprites/sShopMenu/sShopMenu.yy",},"LayerId":{"name":"78aac027-1f60-40ec-abe7-62b271a2e819","path":"sprites/sShopMenu/sShopMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sShopMenu","path":"sprites/sShopMenu/sShopMenu.yy",},"resourceVersion":"1.0","name":"14a57521-b0cb-4dcf-a42d-7668c6f1edd6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -55,7 +56,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 200,
-    "yorigin": 200,
+    "yorigin": 85,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sShopMenu","path":"sprites/sShopMenu/sShopMenu.yy",},
@@ -65,6 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"78aac027-1f60-40ec-abe7-62b271a2e819","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"226911f3-2158-4e60-ab8e-592b70fe22ce","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
