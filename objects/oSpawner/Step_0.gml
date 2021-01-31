@@ -26,7 +26,7 @@ switch (spwanLevel) {
 		if instance_number(oTenDollers) < 4 SpawnItem(random_range(20,480),random_range(20,480),oTenDollers);
 		if instance_number(oBranch) < 4 SpawnItem(random_range(20,480),random_range(20,480),oBranch);
 		if instance_number(oToy) < 2 SpawnItem(random_range(20,480),random_range(20,480),oToy);
-		if instance_number(oFigure) < 1 SpawnItem(random_range(20,480),random_range(20,480),oFigure);
-		if instance_number(oMap) < 3 SpawnItem(random_range(20,480),random_range(20,480),oMap);
+		if instance_number(oFigure) < 2 SpawnItem(random_range(20,480),random_range(20,480),oFigure);
+		if instance_number(oMap) < 4 SpawnItem(random_range(20,480),random_range(20,480),oMap);
 		break;
 }

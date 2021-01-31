@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-type = TreasureType.wood;
+type = TreasureType.paper;
 hp = 3;
 good = 50;

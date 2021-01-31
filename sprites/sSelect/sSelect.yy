@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 12,
-  "bbox_right": 29,
-  "bbox_top": 5,
-  "bbox_bottom": 25,
+  "bbox_left": 8,
+  "bbox_right": 25,
+  "bbox_top": 7,
+  "bbox_bottom": 24,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -26,6 +26,8 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"68083f28-a310-4c3a-8519-b62116359783","path":"sprites/sSelect/sSelect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"68083f28-a310-4c3a-8519-b62116359783","path":"sprites/sSelect/sSelect.yy",},"LayerId":{"name":"23a07fea-e2e2-453d-9977-232cbe1c289f","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"68083f28-a310-4c3a-8519-b62116359783","path":"sprites/sSelect/sSelect.yy",},"LayerId":{"name":"5c90fc21-8288-4af1-bfd7-709749b59af3","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"68083f28-a310-4c3a-8519-b62116359783","path":"sprites/sSelect/sSelect.yy",},"LayerId":{"name":"30eb591b-e9c3-442d-9f15-0205d8267084","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"68083f28-a310-4c3a-8519-b62116359783","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -54,8 +56,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 14,
-    "yorigin": 6,
+    "xorigin": 9,
+    "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},
@@ -65,7 +67,8 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23a07fea-e2e2-453d-9977-232cbe1c289f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"30eb591b-e9c3-442d-9f15-0205d8267084","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"","resourceVersion":"1.0","name":"23a07fea-e2e2-453d-9977-232cbe1c289f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Cursor",
