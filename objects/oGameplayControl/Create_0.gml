@@ -49,7 +49,7 @@ ringTimerMax = 56; //Sound timer
 ringTimer = ringTimerMax;
 nowStatus = -1;
 
-global.money = 100;
+global.money = 0;
 global.gameWin = false;
 
 //Detect area level
