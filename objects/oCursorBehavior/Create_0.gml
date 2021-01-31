@@ -6,3 +6,7 @@ enum Cursor {
 }
 
 global.cursorState = Cursor.detector; //Cursor status
+
+cDetector = false;
+cShovel = false;
+cCursor = false;

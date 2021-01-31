@@ -22,5 +22,6 @@ function DetectDirction() {
 
 if detectDire >= 0 && instance_exists(treasure) && CanDetect(detectType, treasure.type) && dis < detectLv1 && global.cursorState == Cursor.detector
 DetectDirction();
-
+draw_set_color(c_black);
 if global.dig && global.cursorState == Cursor.shovel draw_circle(mouse_x, mouse_y, liftAre[liftArea],true);
+draw_set_color(c_white);

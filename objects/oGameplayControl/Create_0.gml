@@ -49,7 +49,7 @@ ringTimerMax = 56; //Sound timer
 ringTimer = ringTimerMax;
 nowStatus = -1;
 
-global.money = 1000;
+global.money = 0;
 global.gameWin = false;
 
 //Detect area level
@@ -59,6 +59,6 @@ detectLv3 = 30;
 detectLv4 = 15;
 
 //Lift area
-liftAre[0] = 15;
-liftAre[1] = 25;
+liftAre[0] = 20;
+liftAre[1] = 30;
 liftAre[2] = 40;
