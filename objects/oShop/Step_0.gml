@@ -1,11 +1,11 @@
 function OpenShop() {
 	instance_create_layer(room_width / 2, room_height / 2,"UI",oShopMenu);
 	instance_create_layer(room_width / 2, room_height / 2,"Button",oExitShop);
-	var a = instance_create_layer(50, 100,"Button",oAmplifier);
+	var a = instance_create_layer(175, 100,"Button",oAmplifier);
 	a.itemLv = oShopSave.item0Lv;
-	var b = instance_create_layer(50, 150,"Button",oGoodFinder);
+	var b = instance_create_layer(275, 150,"Button",oGoodFinder);
 	b.itemLv = oShopSave.item1Lv;
-	var c = instance_create_layer(50, 200,"Button",oCompass);
+	var c = instance_create_layer(375, 200,"Button",oCompass);
 	c.itemLv = oShopSave.item2Lv;
 	var d = instance_create_layer(50, 250,"Button",oBiggerShovel);
 	d.itemLv = oShopSave.item3Lv;

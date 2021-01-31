@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShopbuy",
-    "path": "sprites/sShopbuy/sShopbuy.yy",
+    "name": "sBrightEye",
+    "path": "sprites/sBrightEye/sBrightEye.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShopbuy",
-    "path": "sprites/sShopbuy/sShopbuy.yy",
+    "name": "sAmplifier",
+    "path": "sprites/sAmplifier/sAmplifier.yy",
   },
   "solid": false,
   "visible": true,

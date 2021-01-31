@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShopbuy",
-    "path": "sprites/sShopbuy/sShopbuy.yy",
+    "name": "sGoodFinder",
+    "path": "sprites/sGoodFinder/sGoodFinder.yy",
   },
   "solid": false,
   "visible": true,

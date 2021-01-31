@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShopbuy",
-    "path": "sprites/sShopbuy/sShopbuy.yy",
+    "name": "sCompass",
+    "path": "sprites/sCompass/sCompass.yy",
   },
   "solid": false,
   "visible": true,

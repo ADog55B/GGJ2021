@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShopbuy",
-    "path": "sprites/sShopbuy/sShopbuy.yy",
+    "name": "sBiggerShovel",
+    "path": "sprites/sBiggerShovel/sBiggerShovel.yy",
   },
   "solid": false,
   "visible": true,

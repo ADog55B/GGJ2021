@@ -1,2 +1,2 @@
-mapMax = 10;
+mapMax = 5;
 mapNow = 0;
