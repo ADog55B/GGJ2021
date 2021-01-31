@@ -6,3 +6,4 @@ oGameplayControl.liftPower = item4Lv - 1;
 if item5Lv = 1 oGameplayControl.canDistinguish = false;
 else
 oGameplayControl.canDistinguish = true;
+

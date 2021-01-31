@@ -20,8 +20,6 @@ function CursorControl(){
 	global.select = mouse_check_button(mb_left);
 	global.selectPress = mouse_check_button_pressed(mb_left);
 	global.selectRelease = mouse_check_button_released(mb_left);
-	global.gameRestart = keyboard_check(ord("R"));
-	if global.gameRestart game_restart();
 	/////Game control/////
 	
 	//Check if any UI displaying
